@@ -1,0 +1,150 @@
+.header {
+    
+    background-color: #212121;
+ 
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.header-navbar{
+    display: none;
+}
+.logoHome{
+    flex: 1;
+    width: 100%;
+}
+.header-ul{
+    list-style: none;
+    display: flex;
+    flex: 6;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+.header-ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 31px 16px;
+    font-size: 16px;
+    cursor: auto;
+    text-transform: uppercase;
+   
+
+}
+.header-actionUser{
+    display: flex;
+    flex: 2;
+    align-items: center;
+  
+}
+.header-actionUser-search{
+    position: relative;
+}
+.header-actionUser-search input{
+    border: 0;
+    background-color: #e8e8e8;
+    box-shadow: none;
+    height: 50px;
+    padding: 0 20px 0 40px;
+    border-radius: 33px;
+    outline: none;
+}
+.header-actionUser-icon{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    width: unset;
+    height: unset;
+    z-index: 10;
+    filter: invert(1);
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.header-actionUser-user{
+  
+    width: 27px;
+    height: 27px;
+    color: white;
+    margin: 0 20px;
+}
+.header-actionUser-shopping{
+  
+    width: 27px;
+    height: 27px;
+    color: white;
+}
+
+@media screen and (max-width: 1475px){
+    .header-ul li{
+        font-size: 14px;
+       
+        padding: 31px 8px;
+    }
+ 
+    
+}
+@media screen and (max-width: 1343px){
+    .header-ul li{
+        font-size: 12px;
+      
+       
+    }
+    .header-actionUser-search input {
+        height: 40px;
+    }
+    .header-actionUser-icon {
+        top: 9px
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .header-actionUser-search input {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1055px){
+    .header-inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-logo{
+        padding: 10px 0;
+    }
+    .header-ul{
+        display: none;
+    }
+    .header-actionUser-search{
+        display: none;
+    }
+    .header-navbar{
+        display: flex;
+        justify-content: flex-start;
+        flex: 1;
+    }
+    .header-navbar-menu{
+        width: 27px;
+        height: 100%;
+        color: white;
+        margin: 12px 5px;
+    }
+    .header-navbar-search{
+        width: 27px;
+        height: 100%;
+        color: white;
+        margin: 12px 5px;
+    }
+    .header-actionUser{
+    flex: 1;
+    justify-content: flex-end;
+    }
+
+}

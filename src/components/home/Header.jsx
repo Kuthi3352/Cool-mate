@@ -5,6 +5,7 @@ import { CiSearch } from "react-icons/ci";
 import { FaUserAlt } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
 import { HiMenuAlt1 } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -43,7 +44,10 @@ const Header = () => {
               </div>
                
             </div>
+            <Link to='/register'>
             <FaUserAlt className='header-actionUser-user' />
+            </Link>
+           
             <FaBagShopping className="header-actionUser-shopping" />
            
         </div>

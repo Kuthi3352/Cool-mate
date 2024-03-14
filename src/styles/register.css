@@ -1,0 +1,49 @@
+.register-background{
+    width: 100vw !important;
+    height: 49vw !important;
+}
+/* .register-form{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    
+   
+} */
+.register-form input{
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.register-form button{
+   background-color: brown;
+   height: 35px;
+   width: 100%;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    color: white;
+    
+}
+.register-khung{
+    width: 350px;
+    height: 350px;
+    background-color: #56565661;
+    position: absolute;
+    border-radius: 10px;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerErr{
+    color: red;
+    padding-bottom: 10px;
+   
+}
+    

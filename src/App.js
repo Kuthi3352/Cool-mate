@@ -1,12 +1,17 @@
 import "./App.css";
 
 import Home from "./pages/Home";
-
-const api = "https://fakestoreapi.com/products";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Register from "./components/Register";
 function App() {
   return (
     <>
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -26,8 +26,8 @@ const Header = () => {
     <>
       <div>
         <div id="altd-header" className="header-altd fix-altd">
-          <div className="header-topbar">
-            <div className="marquee-topbar">
+          <div id="header-topbar">
+            <div id="marquee-topbar">
               <div className="topbar-item animation">
                 <p>
                   <strong>🚛 FREESHIP mọi đơn hàng</strong>

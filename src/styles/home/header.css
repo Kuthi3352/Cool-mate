@@ -21,14 +21,14 @@
     left: 0;
     z-index: 100000;   
 } */
-.header-topbar{
+#header-topbar{
     background: #FFFFFF;
     font-size: 12px;
     color: #000000;
     overflow: hidden;
     padding: 0 50px;
 }
-.marquee-topbar{
+#marquee-topbar{
     display: flex;
     display: -webkit-flex;
     position: relative;

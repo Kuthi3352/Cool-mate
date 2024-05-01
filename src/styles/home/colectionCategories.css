@@ -1,0 +1,43 @@
+.specific-banner{
+    max-width: 1700px;
+    margin: 45px auto 0;
+    background-color: #a31412;
+}
+.specific-banner img{
+    width: 100%;
+    height: auto;
+}
+.specific-item{
+    display: flex;
+    justify-content:space-evenly;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 50px 0 0;
+    background-color: #a31412;
+}
+.specific-item button{
+    padding: 20px;
+    background-color: rgb(201 201 201 / 84%);
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px transparent;
+    border-radius: 40px;
+    font-weight: 700;
+    
+}
+.specific-item button:hover{
+    background-color: #f2c124;
+    color: white;
+    transition: 0.5s;
+}
+.products-contaner{
+    background-color: #a31412;
+    max-width: 1700px;
+    margin: 0 auto;
+    background-color: #a31412;
+}
+.products-bg{
+    background-color: #a31412 !important;
+}
+

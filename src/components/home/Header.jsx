@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <div className="header-altd fix-altd">
+        <div id="altd-header" className="header-altd fix-altd">
           <div className="header-topbar">
             <div className="marquee-topbar">
               <div className="topbar-item animation">

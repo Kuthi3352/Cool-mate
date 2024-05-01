@@ -116,17 +116,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright">
-        <div className="container">
-          <div className="row">
-            <p className="col-lg-8">
-              © 2023 Diner. All Rights Reserved | WordPress Theme by{" "}
-              <a href="">W3Layouts.</a>
-            </p>
-            <div className="col-lg-4"></div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

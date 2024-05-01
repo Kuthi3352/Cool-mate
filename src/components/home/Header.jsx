@@ -26,7 +26,7 @@ const Header = () => {
     <>
       <div>
         <div id="altd-header" className="header-altd fix-altd">
-          <div id="header-topbar">
+          <div id="header-topbar" style={{ background: "white" }}>
             <div id="marquee-topbar">
               <div className="topbar-item animation">
                 <p>

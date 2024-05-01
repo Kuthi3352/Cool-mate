@@ -24,7 +24,7 @@ const Header = () => {
   // })
   return (
     <>
-      <div className="header">
+      <div className="header-altd">
         <div className="header-topbar">
           <div className="marquee-topbar">
             <div className="topbar-item animation">
